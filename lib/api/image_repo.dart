@@ -14,6 +14,8 @@ class ImageRepo {
   ///This function uploads an image to the server. it uses the Dio package to execute
   ///a post request that takes the url and the File data to be uploaded.
   ///It returns a body that contains the details of the image that is uploaded.
+  ///Dio package is used for this http request as it provides a simpler method of
+  ///posting a form data than its counterpart - http package
   Future<ImageModel> uploadImage(File image) async {
     String fileName = image.path.split('/').last;
     FormData formData = FormData.fromMap({
