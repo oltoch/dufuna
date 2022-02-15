@@ -1,9 +1,5 @@
 # Lekki Properties
 
-A flutter app.
-
-## Getting Started
-
 This app lets users view properties as well as add new properties to a collection.
 
 Users can also update properties.
@@ -28,7 +24,10 @@ User can add a new property when they click on add new on the list of property p
 upload one or more pictures of the property as well as fill in all details of the property in to
 the input fields. (All fields are required to be filled to add a new property).
 
-The code is structured into directories which include:
+
+## Code Structure
+
+### The code is structured into directories which include:
 
 screens: which has all the UIs and logic for rendering to the device screen.
 
@@ -47,7 +46,8 @@ api into controllers
 Other files include: constants which contains all constants value such as color and textStyle
 and helpers which contains custom functions such as picking images from the device  
 
-External packages used in the app include:
+
+## External packages used in the app include:
 
 flutter_screenutil: For screen size adaptation on devices
 
@@ -65,4 +65,4 @@ carousel_slider: For displaying pictures in a slider
 
 image_picker: For picking images from the gallery of the device
 
-Contact: otchrisola@gmail.com
+## Contact: otchrisola@gmail.com
